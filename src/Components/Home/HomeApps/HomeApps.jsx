@@ -1,6 +1,7 @@
 import React from 'react';
 import HomeSingleData from './HomeSingleData';
 
+
 const HomeApps = ({ homeAllData }) => {
     // console.log(homeAllData)
     return (
