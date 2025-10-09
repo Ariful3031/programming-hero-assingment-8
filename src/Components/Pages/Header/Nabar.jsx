@@ -6,13 +6,13 @@ import ContributeImage from '../../../assets/fi_2111432.png'
 
 const Navbar = () => {
     const links = <>
-        <Link className='ml-6'>Home</Link>
-        <Link className='ml-6'>Apps</Link>
-        <Link className='ml-6'>Installation</Link>
+        <Link to='/' className='ml-6'>Home</Link>
+        <Link to='/apps' className='ml-6'>Apps</Link>
+        <Link to='/installation' className='ml-6'>Installation</Link>
 
     </>
     return (
-        <div className="navbar bg-base-100 shadow-sm px-5 md:px-12 py-5 w-11/12 mx-auto">
+        <div className="navbar bg-base-100 shadow-sm px-5 md:px-12 py-5 w-12/12 mx-auto">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

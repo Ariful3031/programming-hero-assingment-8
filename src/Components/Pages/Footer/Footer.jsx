@@ -3,7 +3,7 @@ import NavbarImage from '../../../assets/logo-D9NHcesw 1.png'
 
 const Footer = () => {
     return (
-        <div className='w-11/12 mx-auto'>
+        <div className='w-12/12 mx-auto'>
 
             <footer className=" flex justify-between footer sm:footer-horizontal bg-[#001931] text-[#FAFAFA] p-10">
                 <aside className='flex items-center'>
@@ -53,7 +53,7 @@ const Footer = () => {
 
             <footer className="bg-[#001931] text-[#FAFAFA] footer sm:footer-horizontal footer-center p-4">
                 <aside>
-                    <p>Copyright © {new Date().getFullYear()} - All right reserved by ACME Industries Ltd</p>
+                    <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
                 </aside>
             </footer>
 

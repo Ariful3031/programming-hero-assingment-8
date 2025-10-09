@@ -1,0 +1,893 @@
+[
+    {
+        "image": "https://play-lh.googleusercontent.com/1nX1vGgUQk6fR7O3Aoe9vF5H1dSGd7drN95fOZ0R6vdbWDXHcJ0zX7WZQeB2uQbY9A=w240-h480-rw",
+        "title": "Ludo King",
+        "companyName": "Gametion Global",
+        "id": 1,
+        "description": "Ludo King is a classic board game enjoyed by friends and family. Play online, offline, and with global players in this fun strategy game.",
+        "size": 65,
+        "reviews": "10.5M",
+        "ratingAvg": 4.3,
+        "downloads": "500M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": "450K"
+            },
+            {
+                "name": "2 star",
+                "count": "320K"
+            },
+            {
+                "name": "3 star",
+                "count": "800K"
+            },
+            {
+                "name": "4 star",
+                "count": "2.2M"
+            },
+            {
+                "name": "5 star",
+                "count": "7.4M"
+            }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/8n8Jt3_U6tZB0kQxZg3mCBOoPFTxq_jIQjU3VgyBk3fBrC3AwPp7NQxC3RjlZyOa6Gg=w240-h480-rw",
+        "title": "Candy Crush Saga",
+        "companyName": "King",
+        "id": 2,
+        "description": "Match candies to progress through hundreds of fun puzzle levels. Join millions of players in this sweet, colorful adventure.",
+        "size": 92,
+        "reviews": "35M",
+        "ratingAvg": 4.6,
+        "downloads": "1B",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": "800K"
+            },
+            {
+                "name": "2 star",
+                "count": "600K"
+            },
+            {
+                "name": "3 star",
+                "count": "1.2M"
+            },
+            {
+                "name": "4 star",
+                "count": "4.2M"
+            },
+            {
+                "name": "5 star",
+                "count": "28.4M"
+            }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/2kDnxgbf0iAefVi8g4bM_rS0f1Ug6JliW7EOcH3ibE76Z8x9I8GB4MynYwbkQJ7qZxA=w240-h480-rw",
+        "title": "PUBG Mobile",
+        "companyName": "Tencent Games",
+        "id": 3,
+        "description": "PUBG Mobile delivers the most intense free-to-play multiplayer action on mobile. Drop in, gear up, and fight to survive the ultimate battle royale.",
+        "size": 780,
+        "reviews": "46M",
+        "ratingAvg": 4.4,
+        "downloads": "1B",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": "2.2M"
+            },
+            {
+                "name": "2 star",
+                "count": "1.6M"
+            },
+            {
+                "name": "3 star",
+                "count": "4.4M"
+            },
+            {
+                "name": "4 star",
+                "count": "9.6M"
+            },
+            {
+                "name": "5 star",
+                "count": "28.2M"
+            }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/vKXz8iR4D4r2xNmwQmgv1UWW2cA3XyDvyzyL0akR5aZbWRCZgZy7JQh_2cvYg0qg3g=w240-h480-rw",
+        "title": "Spotify",
+        "companyName": "Spotify AB",
+        "id": 4,
+        "description": "Listen to millions of songs, podcasts, and playlists. Enjoy music anytime, anywhere, with personalized recommendations and offline mode.",
+        "size": 105,
+        "reviews": "30M",
+        "ratingAvg": 4.5,
+        "downloads": "1B",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": "1.1M"
+            },
+            {
+                "name": "2 star",
+                "count": "900K"
+            },
+            {
+                "name": "3 star",
+                "count": "2.5M"
+            },
+            {
+                "name": "4 star",
+                "count": "7.5M"
+            },
+            {
+                "name": "5 star",
+                "count": "18.4M"
+            }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/hOAiX6gM_q0oB5Ejr3oNwZfP7yP0HWevOeq8MQN-6OeqW8bKswZ3C8V5pCCXGpoN2Y=w240-h480-rw",
+        "title": "Instagram",
+        "companyName": "Meta Platforms, Inc.",
+        "id": 5,
+        "description": "Connect with friends, share moments, and explore the world through photos, videos, and stories on Instagram.",
+        "size": 140,
+        "reviews": "155M",
+        "ratingAvg": 4.2,
+        "downloads": "5B",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": "6M"
+            },
+            {
+                "name": "2 star",
+                "count": "4.4M"
+            },
+            {
+                "name": "3 star",
+                "count": "14.5M"
+            },
+            {
+                "name": "4 star",
+                "count": "33M"
+            },
+            {
+                "name": "5 star",
+                "count": "97M"
+            }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/4bTGyI5gZz0Wj2C0dBnR2kZ8wG9Z8VZ8gkMWpZddHcHnO4hKxGQ2F4zH1nFVj7u7S9=w240-h480-rw",
+        "title": "TikTok",
+        "companyName": "ByteDance",
+        "id": 6,
+        "description": "Create and share short videos with music, filters, and fun effects. Discover creative content from millions of users around the world.",
+        "size": 180,
+        "reviews": "60M",
+        "ratingAvg": 4.4,
+        "downloads": "1B",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": "2.5M"
+            },
+            {
+                "name": "2 star",
+                "count": "1.8M"
+            },
+            {
+                "name": "3 star",
+                "count": "5.2M"
+            },
+            {
+                "name": "4 star",
+                "count": "11.4M"
+            },
+            {
+                "name": "5 star",
+                "count": "39M"
+            }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/9o2KfI7Jt9YwO3LQ3eYdF9vL7iZP9v3WfP9YbT4dYhPqYbK7bV2VfK3fT4sJ9mWbLg=w240-h480-rw",
+        "title": "Snapchat",
+        "companyName": "Snap Inc.",
+        "id": 7,
+        "description": "Snapchat lets you share quick moments with friends and express yourself with fun filters, lenses, and chat options.",
+        "size": 110,
+        "reviews": "29M",
+        "ratingAvg": 4.1,
+        "downloads": "1B",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": "1.8M"
+            },
+            {
+                "name": "2 star",
+                "count": "1.5M"
+            },
+            {
+                "name": "3 star",
+                "count": "4.2M"
+            },
+            {
+                "name": "4 star",
+                "count": "7.4M"
+            },
+            {
+                "name": "5 star",
+                "count": "14.2M"
+            }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/ytxF0wG1C8F8v7MxJ9H3k7ZJQxHf9b9QWmQjF1k4a8gY5qK7mLxJr3oN4gQkZ5zJ0A=w240-h480-rw",
+        "title": "Duolingo",
+        "companyName": "Duolingo",
+        "id": 8,
+        "description": "Learn languages for free with short, fun lessons. Practice speaking, reading, listening, and writing to improve your skills quickly.",
+        "size": 54,
+        "reviews": "12M",
+        "ratingAvg": 4.7,
+        "downloads": "500M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": "350K"
+            },
+            {
+                "name": "2 star",
+                "count": "220K"
+            },
+            {
+                "name": "3 star",
+                "count": "600K"
+            },
+            {
+                "name": "4 star",
+                "count": "2.1M"
+            },
+            {
+                "name": "5 star",
+                "count": "8.7M"
+            }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/7ZKoZq4ZybZ2uHLEH-5JjY-px3tYDpHIfxG8Clm5CGC6MyiTxrX7kKFSAn_r5GHs4w=w240-h480-rw",
+        "title": "Netflix",
+        "companyName": "Netflix, Inc.",
+        "id": 9,
+        "description": "Stream the latest movies, TV shows, and documentaries. Watch your favorite content anywhere with offline downloads and personalized recommendations.",
+        "size": 130,
+        "reviews": "22M",
+        "ratingAvg": 4.5,
+        "downloads": "1B",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": "900K"
+            },
+            {
+                "name": "2 star",
+                "count": "700K"
+            },
+            {
+                "name": "3 star",
+                "count": "1.9M"
+            },
+            {
+                "name": "4 star",
+                "count": "6.2M"
+            },
+            {
+                "name": "5 star",
+                "count": "13M"
+            }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/TX2cwbvFV-Lu5CFbYcftP3ljR_3sVRtu2eS9u1frWxJX1dfmMLPjEvbU5I7EDoT5Ig=w240-h480-rw",
+        "title": "WhatsApp Messenger",
+        "companyName": "Meta Platforms, Inc.",
+        "id": 10,
+        "description": "Free, fast, and secure messaging app used by billions. Send texts, voice notes, photos, and videos with end-to-end encryption.",
+        "size": 120,
+        "reviews": "185M",
+        "ratingAvg": 4.3,
+        "downloads": "5B",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": "9M"
+            },
+            {
+                "name": "2 star",
+                "count": "5.5M"
+            },
+            {
+                "name": "3 star",
+                "count": "15M"
+            },
+            {
+                "name": "4 star",
+                "count": "43M"
+            },
+            {
+                "name": "5 star",
+                "count": "121M"
+            }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/hEha1u8Mtr0IjOjz-B1iYFi7TnIBjvB1BPOFf4iF0XKjvEDR7kULX5g5plKnfJclxg=w240-h480-rw",
+        "title": "Google Maps",
+        "companyName": "Google LLC",
+        "id": 11,
+        "description": "Navigate your world faster and easier. Get real-time GPS navigation, traffic, and transit information anywhere you go.",
+        "size": 150,
+        "reviews": "14M",
+        "ratingAvg": 4.4,
+        "downloads": "10B",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": "650K"
+            },
+            {
+                "name": "2 star",
+                "count": "420K"
+            },
+            {
+                "name": "3 star",
+                "count": "1.3M"
+            },
+            {
+                "name": "4 star",
+                "count": "3.2M"
+            },
+            {
+                "name": "5 star",
+                "count": "8.5M"
+            }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/eeuPjv5F4xz4ZV-6lj9U7J4M-4rZQcbgW9mC6pgYdNzqUqFGC7j8Mq6eql7KoTYf7w=w240-h480-rw",
+        "title": "Telegram",
+        "companyName": "Telegram FZ-LLC",
+        "id": 12,
+        "description": "Fast, secure, and cloud-based messaging app with no limits on file size. Join millions in private and public groups worldwide.",
+        "size": 92,
+        "reviews": "13M",
+        "ratingAvg": 4.5,
+        "downloads": "1B",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": "500K"
+            },
+            {
+                "name": "2 star",
+                "count": "340K"
+            },
+            {
+                "name": "3 star",
+                "count": "1M"
+            },
+            {
+                "name": "4 star",
+                "count": "3.1M"
+            },
+            {
+                "name": "5 star",
+                "count": "8.1M"
+            }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/6HHWv8JecDj9VLPYKHQf_JmHMBHkHb1p7YsdXbL-j6ogtWZkl5v2rPCfTiNmHcDvw=w240-h480-rw",
+        "title": "Google Chrome",
+        "companyName": "Google LLC",
+        "id": 13,
+        "description": "Fast, simple, and secure web browser built for Android. Sync across devices, use voice search, and enjoy high-speed browsing.",
+        "size": 95,
+        "reviews": "10.5M",
+        "ratingAvg": 4.2,
+        "downloads": "10B",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": "600K"
+            },
+            {
+                "name": "2 star",
+                "count": "430K"
+            },
+            {
+                "name": "3 star",
+                "count": "1.2M"
+            },
+            {
+                "name": "4 star",
+                "count": "2.8M"
+            },
+            {
+                "name": "5 star",
+                "count": "7.2M"
+            }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/bH8K0H79FwbAwLxjZJutB0VG0kDJL7HL1jKZx2zj8ztOb0FqtRZdUOb-wKliWZkK1A=w240-h480-rw",
+        "title": "YouTube",
+        "companyName": "Google LLC",
+        "id": 14,
+        "description": "Watch, stream, and discover what the world is watching. Subscribe to channels and enjoy your favorite videos and creators.",
+        "size": 170,
+        "reviews": "160M",
+        "ratingAvg": 4.4,
+        "downloads": "10B",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": "6M"
+            },
+            {
+                "name": "2 star",
+                "count": "5M"
+            },
+            {
+                "name": "3 star",
+                "count": "14M"
+            },
+            {
+                "name": "4 star",
+                "count": "35M"
+            },
+            {
+                "name": "5 star",
+                "count": "110M"
+            }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/E2XgM9o0sh04sUl4IVVxkQJkDhm1B2-AXFvqX4a1BfFUt0XGx_6W8YBY1JH7R4by=w240-h480-rw",
+        "title": "Facebook",
+        "companyName": "Meta Platforms, Inc.",
+        "id": 15,
+        "description": "Connect with friends, share life updates, photos, and videos. Stay connected and explore communities that matter to you.",
+        "size": 200,
+        "reviews": "110M",
+        "ratingAvg": 4.1,
+        "downloads": "5B",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": "7.5M"
+            },
+            {
+                "name": "2 star",
+                "count": "5M"
+            },
+            {
+                "name": "3 star",
+                "count": "18M"
+            },
+            {
+                "name": "4 star",
+                "count": "28M"
+            },
+            {
+                "name": "5 star",
+                "count": "52M"
+            }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/9MfLwnqRSP0UIjWOl5uhIMlS5ZkkMZbmD6O2eJKGfGrqg58H7Icn-U8a1G_s3PzkR=w240-h480-rw",
+        "title": "Pinterest",
+        "companyName": "Pinterest, Inc.",
+        "id": 16,
+        "description": "Discover ideas and inspiration for recipes, fashion, home design, and more. Save and organize your favorite finds easily.",
+        "size": 72,
+        "reviews": "15M",
+        "ratingAvg": 4.6,
+        "downloads": "1B",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": "500K"
+            },
+            {
+                "name": "2 star",
+                "count": "300K"
+            },
+            {
+                "name": "3 star",
+                "count": "900K"
+            },
+            {
+                "name": "4 star",
+                "count": "3.1M"
+            },
+            {
+                "name": "5 star",
+                "count": "10.2M"
+            }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/GRth2B6CKHTr2E6lHPYZm2n0W-pvO2AlS2tXy7FpEZvXWWiY1cP4M1Bh0U1g8WWlXQ=w240-h480-rw",
+        "title": "Twitter (X)",
+        "companyName": "X Corp.",
+        "id": 17,
+        "description": "Join the conversation with millions of users around the globe. Share updates, follow trends, and discover what’s happening right now.",
+        "size": 120,
+        "reviews": "28M",
+        "ratingAvg": 4.0,
+        "downloads": "1B",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": "1.9M"
+            },
+            {
+                "name": "2 star",
+                "count": "1.6M"
+            },
+            {
+                "name": "3 star",
+                "count": "5M"
+            },
+            {
+                "name": "4 star",
+                "count": "7.3M"
+            },
+            {
+                "name": "5 star",
+                "count": "12.2M"
+            }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/Ca4JMFd1ZlF8P-RldplvK4ZGVozwK8u2bykPrQfZoQpFSFZ91nUNbG9kz3PmtBzK6A=w240-h480-rw",
+        "title": "Zoom Cloud Meetings",
+        "companyName": "Zoom Video Communications, Inc.",
+        "id": 18,
+        "description": "Video conferencing made easy. Join meetings, webinars, and virtual events from anywhere with crystal clear audio and video.",
+        "size": 115,
+        "reviews": "15M",
+        "ratingAvg": 4.3,
+        "downloads": "1B",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": "700K"
+            },
+            {
+                "name": "2 star",
+                "count": "400K"
+            },
+            {
+                "name": "3 star",
+                "count": "1.2M"
+            },
+            {
+                "name": "4 star",
+                "count": "3.2M"
+            },
+            {
+                "name": "5 star",
+                "count": "9.7M"
+            }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/vzFvJhJlp6iV3m5Gm1H12u-2mLJh2kQq1x7KkoyC4YhF1rA8oM9-PHPCwMSD8cMHEw=w240-h480-rw",
+        "title": "CapCut",
+        "companyName": "Bytedance Pte. Ltd.",
+        "id": 19,
+        "description": "Edit videos like a pro. Add transitions, filters, and effects to make your content shine. Perfect for creators and editors.",
+        "size": 160,
+        "reviews": "22M",
+        "ratingAvg": 4.6,
+        "downloads": "500M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": "900K"
+            },
+            {
+                "name": "2 star",
+                "count": "500K"
+            },
+            {
+                "name": "3 star",
+                "count": "1.6M"
+            },
+            {
+                "name": "4 star",
+                "count": "4.4M"
+            },
+            {
+                "name": "5 star",
+                "count": "14.6M"
+            }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/FJfoR_zWeZeqePp9QJrHHzR2A3y8LoMcv6ZkLQ5m8ZcFS2rE2dNGEbPY2H5XeDkXo=w240-h480-rw",
+        "title": "Adobe Lightroom",
+        "companyName": "Adobe Inc.",
+        "id": 20,
+        "description": "Professional photo editing tools made easy. Adjust lighting, color, and details to enhance your photos on the go.",
+        "size": 190,
+        "reviews": "11M",
+        "ratingAvg": 4.5,
+        "downloads": "100M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": "350K"
+            },
+            {
+                "name": "2 star",
+                "count": "210K"
+            },
+            {
+                "name": "3 star",
+                "count": "700K"
+            },
+            {
+                "name": "4 star",
+                "count": "2.6M"
+            },
+            {
+                "name": "5 star",
+                "count": "7.6M"
+            }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/oKflEjY6JxW6yBfL27Yd91N1E4o7W9jS1pX1tIfU4sLJ9HjYfN1yHSmQdMctVf6TkA=w240-h480-rw",
+        "title": "Canva",
+        "companyName": "Canva Pty Ltd.",
+        "id": 21,
+        "description": "Create stunning designs and presentations easily. Use templates, graphics, and fonts to design anything from posts to flyers.",
+        "size": 110,
+        "reviews": "15M",
+        "ratingAvg": 4.7,
+        "downloads": "500M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": "400K"
+            },
+            {
+                "name": "2 star",
+                "count": "250K"
+            },
+            {
+                "name": "3 star",
+                "count": "800K"
+            },
+            {
+                "name": "4 star",
+                "count": "2.8M"
+            },
+            {
+                "name": "5 star",
+                "count": "10.7M"
+            }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/g2GgYkC7z1V2K0F6p_4cz1vXc0lAWzHfT1nI3U6oA2Y8fM5bPz9K3xVhYJrP1a4r=w240-h480-rw",
+        "title": "Microsoft Teams",
+        "companyName": "Microsoft Corporation",
+        "id": 22,
+        "description": "Collaborate with your team in real-time. Chat, video call, and share files securely with Microsoft Teams for work or school.",
+        "size": 150,
+        "reviews": "12M",
+        "ratingAvg": 4.3,
+        "downloads": "500M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": "600K"
+            },
+            {
+                "name": "2 star",
+                "count": "430K"
+            },
+            {
+                "name": "3 star",
+                "count": "1.3M"
+            },
+            {
+                "name": "4 star",
+                "count": "3.4M"
+            },
+            {
+                "name": "5 star",
+                "count": "7.9M"
+            }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/3jH6hF7nO_Jy4Yb8xE8K6mVhO7lYJ7kZbXlP5lVbYJxO7aF4g9XqH7fZc5zK2hF2=w240-h480-rw",
+        "title": "Shazam",
+        "companyName": "Apple Inc.",
+        "id": 23,
+        "description": "Identify any song in seconds. Discover music playing around you and sync with Apple Music or Spotify instantly.",
+        "size": 60,
+        "reviews": "11M",
+        "ratingAvg": 4.8,
+        "downloads": "500M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": "200K"
+            },
+            {
+                "name": "2 star",
+                "count": "150K"
+            },
+            {
+                "name": "3 star",
+                "count": "400K"
+            },
+            {
+                "name": "4 star",
+                "count": "1.6M"
+            },
+            {
+                "name": "5 star",
+                "count": "8.7M"
+            }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/sample24=w240-h480-rw",
+        "title": "Evernote",
+        "companyName": "Evernote Corp.",
+        "id": 24,
+        "description": "Organize notes, tasks, and schedules. Sync across all devices for seamless productivity.",
+        "size": 95,
+        "reviews": "8M",
+        "ratingAvg": 4.4,
+        "downloads": "200M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": "120K"
+            },
+            {
+                "name": "2 star",
+                "count": "80K"
+            },
+            {
+                "name": "3 star",
+                "count": "300K"
+            },
+            {
+                "name": "4 star",
+                "count": "1.2M"
+            },
+            {
+                "name": "5 star",
+                "count": "6.3M"
+            }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/sample25=w240-h480-rw",
+        "title": "Dropbox",
+        "companyName": "Dropbox, Inc.",
+        "id": 25,
+        "description": "Store files securely in the cloud and access them from any device. Share files easily with friends and colleagues.",
+        "size": 110,
+        "reviews": "7M",
+        "ratingAvg": 4.5,
+        "downloads": "150M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": "100K"
+            },
+            {
+                "name": "2 star",
+                "count": "70K"
+            },
+            {
+                "name": "3 star",
+                "count": "250K"
+            },
+            {
+                "name": "4 star",
+                "count": "1.1M"
+            },
+            {
+                "name": "5 star",
+                "count": "5.5M"
+            }
+        ]
+    },
+    {
+        "image": "https://play-lh.googleusercontent.com/sample26=w240-h480-rw",
+        "title": "Slack",
+        "companyName": "Slack Technologies",
+        "id": 26,
+        "description": "Team communication and collaboration made easy. Chat, share files, and integrate apps in one platform.",
+        "size": 130,
+        "reviews": "6M",
+        "ratingAvg": 4.3,
+        "downloads": "100M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": "80K"
+            },
+            {
+                "name": "2 star",
+                "count": "50K"
+            },
+            {
+                "name": "3 star",
+                "count": "200K"
+            },
+            {
+                "name": "4 star",
+                "count": "1M"
+            },
+            {
+                "name": "5 star",
+                "count": "4.67M"
+            }
+        ]
+    },
+    {
+        "image": "https://i.ibb.co.com/989qMRW/42844155.jpg",
+        "title": "Notion",
+        "companyName": "Notion Labs",
+        "id": 27,
+        "description": "All-in-one workspace for notes, tasks, wikis, and databases. Collaborate and organize your work efficiently.",
+        "size": 120,
+        "reviews": "5M",
+        "ratingAvg": 4.6,
+        "downloads": "80M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": "60K"
+            },
+            {
+                "name": "2 star",
+                "count": "40K"
+            },
+            {
+                "name": "3 star",
+                "count": "150K"
+            },
+            {
+                "name": "4 star",
+                "count": "900K"
+            },
+            {
+                "name": "5 star",
+                "count": "3.85M"
+            }
+        ]
+    }
+]
