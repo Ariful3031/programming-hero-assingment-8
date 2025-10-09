@@ -7,7 +7,7 @@ const SingleApp = ({ app }) => {
 
     const { title, image, downloads, ratingAvg } = app;
     return (
-        <div className='bg-[#FFFFFF] rounded-xl p-4'>
+        <div className='bg-[#FFFFFF] rounded-xl p-4 hover:scale-105 transition ease-in-out'>
             <img className='h-[316px] w-full rounded-lg' src={image} alt="" />
             <h1 className='text-xl font-medium text-[#001931] my-4 text-start'>{title}</h1>
             <div className='flex items-center justify-between '>

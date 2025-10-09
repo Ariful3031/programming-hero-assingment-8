@@ -1,20 +1,22 @@
-import React from 'react';
+
 import Banner from './Banner/Banner';
 import HomeApps from './HomeApps/HomeApps';
-import { useLoaderData } from 'react-router';
+import useApps from '../Hooks/UseApps';
 
 const Home = () => {
 
     // const allData = useLoaderData();
 
-    const homeAllData = useLoaderData();
+    // const homeAllData = useLoaderData();
+    const { apps } = useApps()
+    const fetchApps = apps.slice(0, 8)
+    console.log(fetchApps)
 
     return (
+
         <div className='w-12/12 mx-auto'>
             <Banner></Banner>
-            <HomeApps homeAllData={homeAllData}></HomeApps>
-
-
+            <HomeApps fetchApps={fetchApps}></HomeApps>
         </div>
     );
 };
