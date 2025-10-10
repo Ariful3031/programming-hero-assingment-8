@@ -18,7 +18,7 @@ const Installation = () => {
 
     const handleUninstall = (id) => {
 
-        // toast.success('In progress !')
+
         const existingList = JSON.parse(localStorage.getItem('install'))
 
         const updateList = existingList.filter(p => p.id !== id)
@@ -66,7 +66,7 @@ const Installation = () => {
                 }
 
             </div>
-            <ToastContainer />
+
 
         </div>
     );
