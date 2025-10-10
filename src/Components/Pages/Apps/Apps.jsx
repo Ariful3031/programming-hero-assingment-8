@@ -10,6 +10,7 @@ const Apps = () => {
     const term = search.trim().toLocaleLowerCase();
     const searchApps = term ? apps.filter(app => app.title.trim().toLocaleLowerCase().includes(term)) : apps
 
+
     // console.log(searchApps)
 
     return (
@@ -26,12 +27,24 @@ const Apps = () => {
                     </label>
                 </div>
             </div>
-            <div className='grid md:grid-cols-4 gap-4  my-10'>
-                {
-                    searchApps.map(app => <SingleApp key={app.id} app={app}></SingleApp>)
-                }
 
-            </div>
+
+
+            {
+                searchApps.length > 0 ? (
+                    <div className='grid md:grid-cols-4 gap-6  my-10'>
+                        {
+                            searchApps.map(app => <SingleApp key={app.id} app={app} searchApps={searchApps}></SingleApp>)
+                        }
+                    </div>
+                ) : (
+                    <h1 className='text-5xl font-bold text-gray-500 mt-14'>NO Apps Found</h1>
+                )
+            }
+
+
+
+
 
         </div>
     );

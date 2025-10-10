@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 
 
 const HomeApps = ({ fetchApps }) => {
-    // console.log(homeAllData)
+
     return (
         <div className=' w-12/12 mx-auto bg-[#F1F5E8] text-center p-15 '>
             <div>

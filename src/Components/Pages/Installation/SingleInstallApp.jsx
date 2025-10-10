@@ -2,7 +2,8 @@ import React from 'react';
 import downloadImg from '../../../assets/icon-downloads.png'
 import ratingImg from '../../../assets/icon-ratings.png'
 
-const SingleInstallApp = ({ app }) => {
+const SingleInstallApp = ({ app, handleUninstall }) => {
+
     const { image, title, downloads, ratingAvg, size } = app;
 
     return (
@@ -27,7 +28,7 @@ const SingleInstallApp = ({ app }) => {
                 </div>
 
             </div>
-            <button className=' btn text-xl font-medium bg-[#00D390] rounded-lg text-white'>Uninstall</button>
+            <button onClick={() => handleUninstall(app.id)} className=' btn text-xl font-medium bg-[#00D390] rounded-lg text-white'>Uninstall</button>
 
         </div>
     );

@@ -1,18 +1,31 @@
 import React, { useEffect, useState } from 'react';
 import SingleInstallApp from './SingleInstallApp';
 
+
 const Installation = () => {
+
 
     const [install, setInstall] = useState([]);
 
     const [sortOrder, setSortOrder] = useState('none');
-    console.log(install)
+
 
     useEffect(() => {
         const saveList = JSON.parse(localStorage.getItem('install'))
         if (saveList) setInstall(saveList)
 
     }, [])
+
+    const handleUninstall = (id) => {
+
+        // toast.success('In progress !')
+        const existingList = JSON.parse(localStorage.getItem('install'))
+
+        const updateList = existingList.filter(p => p.id !== id)
+        setInstall(updateList)
+        localStorage.setItem('install', JSON.stringify(updateList))
+    }
+
 
     const sortItems = () => {
         if (sortOrder === 'download-ascending') {
@@ -25,7 +38,7 @@ const Installation = () => {
             return install
         }
     }
-    // console.log(install.length)
+
 
 
     return (
@@ -49,10 +62,11 @@ const Installation = () => {
             </div>
             <div className='my-10'>
                 {
-                    sortItems().map(app => <SingleInstallApp key={app.id} app={app} ></SingleInstallApp>)
+                    sortItems().map(app => <SingleInstallApp key={app.id} app={app} handleUninstall={handleUninstall}  ></SingleInstallApp>)
                 }
 
             </div>
+            <ToastContainer />
 
         </div>
     );

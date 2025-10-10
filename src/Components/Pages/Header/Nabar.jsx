@@ -24,8 +24,12 @@ const Navbar = () => {
                         {links}
                     </ul>
                 </div>
-                <img src={NavbarImage} alt="" />
-                <a className="btn btn-ghost text-xl text-[#632EE3]">HERO.IO</a>
+                <Link to='/'>
+                    <div className='flex items-center'>
+                        <img src={NavbarImage} alt="" />
+                        <a className=" text-xl text-[#632EE3]">HERO.IO</a>
+                    </div>
+                </Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -34,7 +38,8 @@ const Navbar = () => {
             </div>
             <div className="navbar-end">
 
-                <a className="btn text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2]"> <img src={ContributeImage} alt="" /> Contribute</a>
+                <a href="https://github.com/Ariful3031" className="btn text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2]"><img src={ContributeImage} alt="" /> Contribute</a>
+
             </div>
         </div>
     );

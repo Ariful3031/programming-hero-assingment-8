@@ -11,14 +11,14 @@ const Banner = () => {
                     <span className='text-[#632EE3]'> Productive</span> Apps</h1>
                 <p className='text-[#627382] mt-4'>At HERO. IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. <br /> Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
                 <div className='flex gap-4 my-10 justify-center'>
-                    <div className='btn flex gap-3'>
+                    <a href="https://play.google.com/store/games?hl=en" className='btn flex gap-3'>
                         <img src={playStoreImg} alt="" />
                         <p> Google Play</p>
-                    </div>
-                    <div className=' btn flex gap-3'>
+                    </a>
+                    <a href="https://en.wikipedia.org/wiki/App_Store_(Apple)" className=' btn flex gap-3'>
                         <img src={appStoreImg} alt="" />
                         <p> App Store</p>
-                    </div>
+                    </a>
                 </div>
                 <img className='mx-auto' src={heroImg} alt="" />
             </div>
