@@ -3,7 +3,7 @@ import downloadImg from '../../../assets/icon-downloads.png'
 import ratingImg from '../../../assets/icon-ratings.png'
 
 const HomeSingleData = ({ homeData }) => {
-    console.log(homeData)
+    // console.log(homeData)
     const { title, image, downloads, ratingAvg } = homeData;
     return (
         <div className='bg-[#FFFFFF] rounded-xl p-4 hover:scale-105 transition ease-in-out'>

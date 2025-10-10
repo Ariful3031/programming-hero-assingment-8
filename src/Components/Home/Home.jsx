@@ -9,8 +9,9 @@ const Home = () => {
 
     // const homeAllData = useLoaderData();
     const { apps } = useApps()
+    console.log(apps)
     const fetchApps = apps.slice(0, 8)
-    console.log(fetchApps)
+    // console.log(fetchApps)
 
     return (
 
