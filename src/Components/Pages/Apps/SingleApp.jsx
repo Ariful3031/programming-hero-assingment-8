@@ -10,7 +10,7 @@ const SingleApp = ({ app }) => {
     return (
         <Link to={`/details/${id}`}>
             <div className='bg-[#FFFFFF] rounded-xl p-4 hover:scale-105 transition ease-in-out'>
-                <img className='h-[316px] w-full rounded-lg' src={image} alt="" />
+                <img className='h-[250px] w-full rounded-lg' src={image} alt="" />
                 <h1 className='text-xl font-medium text-[#001931] my-4 text-start'>{title}</h1>
                 <div className='flex items-center justify-between '>
                     <div className=' btn flex gap-1 items-center text-[#00D390] font-medium'>

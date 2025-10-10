@@ -3,14 +3,29 @@ import SingleInstallApp from './SingleInstallApp';
 
 const Installation = () => {
 
-    const [install, setInstall] = useState([])
+    const [install, setInstall] = useState([]);
+
+    const [sortOrder, setSortOrder] = useState('none');
+    console.log(install)
 
     useEffect(() => {
         const saveList = JSON.parse(localStorage.getItem('install'))
         if (saveList) setInstall(saveList)
 
     }, [])
-    console.log(install.length)
+
+    const sortItems = () => {
+        if (sortOrder === 'download-ascending') {
+            return [...install].sort((a, b) => a.downloads - b.downloads)
+        }
+        else if (sortOrder === 'downloads-descending') {
+            return [...install].sort((a, b) => b.downloads - a.downloads)
+        }
+        else {
+            return install
+        }
+    }
+    // console.log(install.length)
 
 
     return (
@@ -21,14 +36,20 @@ const Installation = () => {
                 <div className='flex items-center justify-between'>
                     <p className='text-2xl font-semibold text-[#001931]'><span>({install.length})</span>Apps Found</p>
 
-                    <label>
-                        <input className='btn' placeholder='type' type="text" name="" id="" />
+                    <label className='form-control w-full max-w-xs p-3 rounded-xl'>
+                        <select className='select select-bordered text-2xl' value={sortOrder} onChange={e => setSortOrder(e.target.value)}>
+                            <option value='none'>sort</option>
+                            <option value='downloads-ascending'>low to high</option>
+                            <option value='downloads-descending'>high to low</option>
+
+                        </select>
                     </label>
+
                 </div>
             </div>
             <div className='my-10'>
                 {
-                    install.map(app => <SingleInstallApp key={app.id} app={app} ></SingleInstallApp>)
+                    sortItems().map(app => <SingleInstallApp key={app.id} app={app} ></SingleInstallApp>)
                 }
 
             </div>
