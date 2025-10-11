@@ -6,6 +6,9 @@ import downloadImg from '../../../assets/icon-downloads.png';
 import ratingImg from '../../../assets/icon-ratings.png';
 import reviewImg from '../../../assets/icon-review.png';
 import RatingChart from './RatingChart';
+import { toast } from 'react-toastify';
+import PageLoading from '../../SkelationLoading/PageLoading';
+import ErrorApp from '../ErrorPage/ErrorApp';
 
 const AppsDetails = () => {
     const { id } = useParams();
@@ -13,30 +16,32 @@ const AppsDetails = () => {
     const { apps, loading } = useApps();
     const [installChange, setInstallChange] = useState(false);
 
-    if (loading) return <p>Loading...</p>;
+    if (loading) { return <PageLoading></PageLoading> }
 
     const singleApp = apps.find(app => app.id === parseId);
-    if (!singleApp) return <p>App not found!</p>;
+    if (!singleApp) return <ErrorApp></ErrorApp>;
 
     const { image, downloads, title, ratingAvg, companyName, size, description, ratings } = singleApp;
 
     const handleInstall = () => {
+
         const existingList = JSON.parse(localStorage.getItem('install')) || [];
 
         const duplicate = existingList.some(p => p.id === singleApp.id);
         if (duplicate) {
-            alert("This app is already installed");
+            toast.error("This app is already installed");
             return;
         }
 
         const updatedList = [...existingList, singleApp];
         localStorage.setItem('install', JSON.stringify(updatedList));
         setInstallChange(true);
+        toast.success("install")
     };
 
     return (
-        <div className='bg-[#F1F5E8] p-20'>
-            <div className='grid grid-cols-3 py-5 border-b-2 border-gray-300'>
+        <div className='bg-[#F1F5E8] p-4 md:p-20'>
+            <div className='grid md:grid-cols-3 py-5 border-b-2 border-gray-300'>
                 <img
                     className='w-[350px] h-[321px] bg-white rounded-lg'
                     src={image}
@@ -50,7 +55,7 @@ const AppsDetails = () => {
                         </p>
                     </div>
 
-                    <div className='flex gap-6 my-7'>
+                    <div className='flex items-center gap-6 my-7'>
                         <div className='pr-6'>
                             <img className='w-[40px] h-[40px]' src={downloadImg} alt="" />
                             <p className='text-[#001931]'>Downloads</p>

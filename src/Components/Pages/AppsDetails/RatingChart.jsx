@@ -1,60 +1,26 @@
 import React from 'react';
-// import React from "react";
-// import { BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid, ResponsiveContainer, } from "recharts";
-// import React from 'react';
-// import { BarChart, Bar, Rectangle, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { Bar, BarChart, CartesianGrid, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
+
 
 const RatingChart = ({ description, ratings }) => {
-    console.log(ratings)
-    // const singleData = ratings.map(data => console.log(data))
+    // console.log(ratings)
     return (
         <div>
             <div className='py-10 border-b-2 border-gray-300'>
                 <h1 className='text-[24px] font-semibold text-[#001931]  mb-4'>Ratings</h1>
-                <div className=''>
-                    {/* <div className="w-full h-96 p-4 bg-white rounded-2xl shadow">
-                        <h2 className="text-xl font-semibold mb-4">Ratings</h2>
-                        <ResponsiveContainer width="100%" height="90%">
-                            <BarChart
-                                layout="vertical"
-                                data={singleData}
-                                margin={{ top: 10, right: 30, left: 50, bottom: 10 }}
-                            >
-                                <CartesianGrid strokeDasharray="3 3" />
-                                <XAxis type="number" />
-                                <YAxis dataKey="name" type="category" />
-                                <Tooltip />
-                                <Bar dataKey="value" fill="#FF7A00" barSize={20} radius={[4, 4, 4, 4]} />
-                            </BarChart>
-                        </ResponsiveContainer>
-                    </div> */}
+                <div className='w-11/12 h-[200px] md:h-[300px] '>
 
-                    {/* <ResponsiveContainer width="100%" height="100%">
-                        <BarChart
-                            width={500}
-                            height={300}
-                            data={ratings}
-                            margin={{
-                                top: 5,
-                                right: 30,
-                                left: 20,
-                                bottom: 5,
-                            }}
-                        >
+                    <ResponsiveContainer width="100%" height="100%">
+                        <BarChart data={ratings} layout='vertical'>
                             <CartesianGrid strokeDasharray="3 3" />
-                            <XAxis dataKey="name" />
-                            <YAxis />
+                            <XAxis type="number" />
+                            <YAxis dataKey="name" type="category" reversed={true} />
+
                             <Tooltip />
                             <Legend />
-                            <Bar dataKey="pv" fill="#8884d8" activeBar={<Rectangle fill="pink" stroke="blue" />} />
-                            <Bar dataKey="uv" fill="#82ca9d" activeBar={<Rectangle fill="gold" stroke="purple" />} />
+                            <Bar dataKey="count" fill="#FF8811" />
                         </BarChart>
-                    </ResponsiveContainer> */}
-
-
-
-
-
+                    </ResponsiveContainer>
                 </div>
             </div>
             <div>

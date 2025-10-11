@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import SingleInstallApp from './SingleInstallApp';
+import { toast } from 'react-toastify';
 
 
 const Installation = () => {
@@ -18,7 +19,7 @@ const Installation = () => {
 
     const handleUninstall = (id) => {
 
-
+        toast.success("uninstall");
         const existingList = JSON.parse(localStorage.getItem('install'))
 
         const updateList = existingList.filter(p => p.id !== id)
@@ -28,7 +29,7 @@ const Installation = () => {
 
 
     const sortItems = () => {
-        if (sortOrder === 'download-ascending') {
+        if (sortOrder === 'downloads-ascending') {
             return [...install].sort((a, b) => a.downloads - b.downloads)
         }
         else if (sortOrder === 'downloads-descending') {
@@ -46,7 +47,7 @@ const Installation = () => {
             <div>
                 <h1 className='text-5xl font-bold text-[#001931]'>Your Installed Apps</h1>
                 <p className='text-xl text-[#627382] mt-4'>Explore All Trending Apps on the Market developed by us</p>
-                <div className='flex items-center justify-between'>
+                <div className='md:flex items-center justify-between'>
                     <p className='text-2xl font-semibold text-[#001931]'><span>({install.length})</span>Apps Found</p>
 
                     <label className='form-control w-full max-w-xs p-3 rounded-xl'>

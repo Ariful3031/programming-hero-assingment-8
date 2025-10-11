@@ -9,7 +9,6 @@ const ErrorPage = () => {
             <Navbar></Navbar>
             <Error></Error>
             <Footer></Footer>
-
         </div>
     );
 };

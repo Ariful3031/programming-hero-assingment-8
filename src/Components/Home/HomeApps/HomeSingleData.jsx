@@ -6,7 +6,7 @@ const HomeSingleData = ({ homeData }) => {
     // console.log(homeData)
     const { title, image, downloads, ratingAvg } = homeData;
     return (
-        <div className='bg-[#FFFFFF] rounded-xl p-4 '>
+        <div className='bg-[#FFFFFF] rounded-xl p-4 mt-5'>
             <img className='h-[250px] w-full rounded-lg' src={image} alt="" />
             <h1 className='text-xl font-medium text-[#001931] my-4 text-start'>{title}</h1>
             <div className='flex items-center justify-between '>

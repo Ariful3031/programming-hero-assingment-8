@@ -1,14 +1,14 @@
 import React from 'react';
-import { Link } from 'react-router';
+import { Link, NavLink } from 'react-router';
 import NavbarImage from '../../../assets/logo-D9NHcesw 1.png'
 import ContributeImage from '../../../assets/fi_2111432.png'
 
 
 const Navbar = () => {
     const links = <>
-        <Link to='/' className='ml-6'>Home</Link>
-        <Link to='/apps' className='ml-6'>Apps</Link>
-        <Link to='/installation' className='ml-6'>Installation</Link>
+        <NavLink to='/' className='ml-6'>Home</NavLink>
+        <NavLink to='/apps' className='ml-6'>Apps</NavLink>
+        <NavLink to='/installation' className='ml-6'>Installation</NavLink>
 
     </>
     return (
@@ -27,7 +27,7 @@ const Navbar = () => {
                 <Link to='/'>
                     <div className='flex items-center'>
                         <img src={NavbarImage} alt="" />
-                        <a className=" text-xl text-[#632EE3]">HERO.IO</a>
+                        <p className=" text-xl text-[#632EE3]">HERO.IO</p>
                     </div>
                 </Link>
             </div>

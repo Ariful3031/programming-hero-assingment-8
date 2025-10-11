@@ -4,8 +4,9 @@ import ratingImg from '../../../assets/icon-ratings.png'
 import { Link } from 'react-router';
 
 
-const SingleApp = ({ app, searchApps }) => {
-    if (searchApps.length === 0) return <p>page not found</p>
+const SingleApp = ({ app }) => {
+
+
 
 
     const { title, image, downloads, ratingAvg, id } = app;

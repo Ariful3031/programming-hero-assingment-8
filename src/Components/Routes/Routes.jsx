@@ -7,6 +7,7 @@ import App from '../../App';
 import Apps from '../Pages/Apps/Apps';
 import Installation from '../Pages/Installation/Installation';
 import AppsDetails from '../Pages/AppsDetails/AppsDetails';
+import ErrorApp from '../Pages/ErrorPage/ErrorApp';
 
 // loader: () => fetch('BooksData.json'),
 
@@ -19,7 +20,7 @@ export const router = createBrowserRouter([
         children: [
             {
                 index: true,
-                path: "/",
+
                 Component: Home
             },
             {
@@ -32,6 +33,7 @@ export const router = createBrowserRouter([
             },
             {
                 path: "/details/:id",
+                // errorElement: <ErrorApp></ErrorApp>,
                 Component: AppsDetails
             }
 
