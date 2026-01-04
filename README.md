@@ -1,7 +1,7 @@
 
- # APARTSOL Living Solutions
+ # Taskly — Browser-Based To-Do App
 
-ApartSol is a modern platform designed to simplify the process of buying, renting, and selling properties making it easy for individuals to discover, list, and manage real estate with ease and confidence..
+Taskly is a responsive browser-based to-do app built with React, TypeScript, and Tailwind CSS, allowing users to create, organize, and manage tasks seamlessly without installing any app. It features intuitive task creation, real-time updates, and a user-friendly interface for productivity on any device.
 
 ## Features
 
