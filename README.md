@@ -11,7 +11,7 @@ Taskly is a responsive browser-based to-do app built with React, TypeScript, and
 
 ## Technologies Used
 
-- **Frontend**: React.js, Typescript
+- **Frontend**: React.js
 - **Styling**: Tailwind CSS
 - **Deployment**: Netlify (Frontend)
 
